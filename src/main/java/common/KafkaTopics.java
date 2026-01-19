@@ -1,8 +1,9 @@
 package common;
 
 public final class KafkaTopics {
-    public static final String TRANSACTION_CREATED = "transaction.created";
-    public static final String TRANSACTION_REJECTED = "transaction.rejected"; 
+    public static final String TRANSACTION_CREATED = "transactions.created";
+    public static final String TRANSACTION_REJECTED = "transactions.rejected"; 
+    public static final String TRANSACTION_REQUESTED = "transactions.requested";
 
     private KafkaTopics() {
         // Prevent instantiation

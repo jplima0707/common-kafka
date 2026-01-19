@@ -1,16 +1,16 @@
-package common;
+package common.events;
 
-import java.math.BigDecimal;
 import java.time.Instant;
 import java.util.UUID;
 
-public record TransactionCreatedEvent(
+import common.EventMetadata;
+
+public record TransactionRejectedEvent(
     UUID eventId,
     UUID transactionId,
     UUID accountId,
-    BigDecimal amount,
     Instant ocurredAt,
-    String transactionType,
+    String rejectionReason,
     EventMetadata eventMetadata
 ) {
     
