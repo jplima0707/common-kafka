@@ -1,4 +1,4 @@
-package common;
+package com.jplima0707.common;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

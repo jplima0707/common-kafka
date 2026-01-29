@@ -1,9 +1,9 @@
-package common.events;
+package com.jplima0707.common.events;
 
 import java.time.Instant;
 import java.util.UUID;
 
-import common.EventMetadata;
+import com.jplima0707.common.EventMetadata;
 
 public record TransactionRejectedEvent(
     UUID eventId,

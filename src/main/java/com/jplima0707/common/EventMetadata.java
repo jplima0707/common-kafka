@@ -1,4 +1,4 @@
-package common;
+package com.jplima0707.common;
 
 import java.time.Instant;
 

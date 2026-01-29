@@ -1,4 +1,4 @@
-package common;
+package com.jplima0707.common;
 
 public final class KafkaTopics {
     public static final String TRANSACTION_CREATED = "transactions.created";
