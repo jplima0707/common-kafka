@@ -9,7 +9,8 @@ import com.jplima0707.common.EventMetadata;
 public record TransactionCreatedEvent(
     UUID eventId,
     UUID transactionId,
-    UUID accountId,
+    UUID sourceAccountId,
+    UUID destinationAccountId,
     BigDecimal amount,
     Instant ocurredAt,
     EventMetadata eventMetadata
